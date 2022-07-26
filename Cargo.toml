@@ -1,0 +1,18 @@
+[package]
+name = "lattice_cryptanalysis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.31"
+log = "0.4.17"
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = {version = "0.3.6", features=["html_reports"]}
+
+[[bench]]
+name = "lll_performance"
+harness = false
