@@ -5,4 +5,8 @@ This code is based on Alg 2.6.3 from Henri Cohen - A Course in Computational Alg
 
 Disclaimer: This implementation was designed for educational purposes. This is not a competitive implementation of LLL. Please look at https://github.com/fplll/fplll for a more professional implementation of LLL and other algorithms.
 
+### Documentation
 
+To see the documentation:
+1. Install Rust following the steps at https://www.rust-lang.org/tools/install
+2. Download this project and run: ```cargo doc --no-deps --open```
